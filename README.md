@@ -4,11 +4,11 @@ Alzeihmer detection and classification are two different and essential tasks to 
 
 ![dementia classes](https://github.com/gbulbul/Alzeihmer-detection-and-classification/assets/79763247/c4a92c22-7aee-4195-b933-6ecdab837ad8)
 
-The above figure shows the four groups of dementia. The dementia classes can be codify like this NonDemented:0, ModerateDemented:1, MildDemented:2, VeryMildDemented:3. Similarly, in the detection procedure, there should be two classes like NonDemented:0, Demented:1.
+The above figure shows the four groups of dementia. The dementia classes can be codified like this NonDemented:0, ModerateDemented:1, MildDemented:2, VeryMildDemented:3. Similarly, in the detection procedure, there should be two classes like NonDemented:0, Demented:1.
 
 
 
-The input for the deep learning methods are MRI images to achieve two tasks: detection & classification.
+The input for the deep learning methods are MRI images to achieve two tasks: detection & classification. 
 
 ![alzheimer images minmin](https://github.com/gbulbul/Alzeihmer-detection-and-classification/assets/79763247/a754f5de-0d4a-42ac-9fe0-f8d3da24d7ab)
 
@@ -19,4 +19,6 @@ The input for the deep learning methods are MRI images to achieve two tasks: det
 
 
 
+
+Note on training/testing procedure: each model was trained with 5121 MRI images, then tested with 1279 MRI images.
 
